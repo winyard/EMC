@@ -17,8 +17,8 @@ if (OPENMP_FOUND)
 endif()
 
 
-file(GLOB_RECURSE EMC_SOURCES "../EMC/EMC-Lib/source/*.cpp")
-file(GLOB_RECURSE EMC_HEADERS "../EMC/EMC-Lib/source/*.hpp")
+file(GLOB_RECURSE EMC_SOURCES "EMC-Lib/source/*.cpp")
+file(GLOB_RECURSE EMC_HEADERS "EMC-Lib/source/*.hpp")
 
 set (EMC_INCLUDE_DIRS "")
 

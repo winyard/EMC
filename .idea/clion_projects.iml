@@ -1,40 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="CPP_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$/../EMC/EMC-Lib/source/DNA.cpp">
-      <sourceFolder url="file://$MODULE_DIR$/../EMC/EMC-Lib/source/DNA.cpp" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../EMC/EMC-Lib/source/EMC.cpp">
-      <sourceFolder url="file://$MODULE_DIR$/../EMC/EMC-Lib/source/EMC.cpp" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../EMC/EMC-Lib/source/constants.cpp">
-      <sourceFolder url="file://$MODULE_DIR$/../EMC/EMC-Lib/source/constants.cpp" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../EMC/EMC-Lib/source/evolution.cpp">
-      <sourceFolder url="file://$MODULE_DIR$/../EMC/EMC-Lib/source/evolution.cpp" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../EMC/EMC-Lib/source/mymath.cpp">
-      <sourceFolder url="file://$MODULE_DIR$/../EMC/EMC-Lib/source/mymath.cpp" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../EMC/EMC-Lib/source/objective_function.cpp">
-      <sourceFolder url="file://$MODULE_DIR$/../EMC/EMC-Lib/source/objective_function.cpp" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../EMC/EMC-Lib/source/personality.cpp">
-      <sourceFolder url="file://$MODULE_DIR$/../EMC/EMC-Lib/source/personality.cpp" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../EMC/EMC-Lib/source/population.cpp">
-      <sourceFolder url="file://$MODULE_DIR$/../EMC/EMC-Lib/source/population.cpp" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../EMC/EMC-Lib/source/randomFunctions.cpp">
-      <sourceFolder url="file://$MODULE_DIR$/../EMC/EMC-Lib/source/randomFunctions.cpp" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../EMC/EMC-Lib/source/species.cpp">
-      <sourceFolder url="file://$MODULE_DIR$/../EMC/EMC-Lib/source/species.cpp" isTestSource="false" />
-    </content>
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/main.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/FindEigen3.cmake" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FindEigen3.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EMC-Lib/source/constants.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EMC-Lib/source/population.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EMC-Lib/source/EMC.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EMC-Lib/source/constants.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EMC-Lib/source/randomFunctions.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EMC-Lib/source/DNA.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EMC-Lib/source/mymath.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EMC-Lib/source/evolution.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EMC-Lib/source/randomFunctions.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EMC-Lib/source/DNA.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EMC-Lib/source/personality.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EMC-Lib/source/species.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EMC-Lib/source/EMC.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EMC-Lib/source/personality.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EMC-Lib/source/objective_function.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EMC-Lib/source/evolution.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EMC-Lib/source/species.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EMC-Lib/source/objective_function.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EMC-Lib/source/population.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EMC-Lib/source/mymath.cpp" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
@@ -44,27 +34,13 @@
           <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include" />
           <root url="file:///usr/include" />
           <root url="file:///usr/local/include" />
-          <root url="file://$MODULE_DIR$/../EMC/EMC-Lib/source" />
         </CLASSES>
         <SOURCES>
           <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
           <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include" />
           <root url="file:///usr/include" />
           <root url="file:///usr/local/include" />
-          <root url="file://$MODULE_DIR$/../EMC/EMC-Lib/source" />
         </SOURCES>
-        <excluded>
-          <root url="file://$MODULE_DIR$/../EMC/EMC-Lib/source/evolution.cpp" />
-          <root url="file://$MODULE_DIR$/../EMC/EMC-Lib/source/constants.cpp" />
-          <root url="file://$MODULE_DIR$/../EMC/EMC-Lib/source/objective_function.cpp" />
-          <root url="file://$MODULE_DIR$/../EMC/EMC-Lib/source/randomFunctions.cpp" />
-          <root url="file://$MODULE_DIR$/../EMC/EMC-Lib/source/personality.cpp" />
-          <root url="file://$MODULE_DIR$/../EMC/EMC-Lib/source/DNA.cpp" />
-          <root url="file://$MODULE_DIR$/../EMC/EMC-Lib/source/mymath.cpp" />
-          <root url="file://$MODULE_DIR$/../EMC/EMC-Lib/source/species.cpp" />
-          <root url="file://$MODULE_DIR$/../EMC/EMC-Lib/source/EMC.cpp" />
-          <root url="file://$MODULE_DIR$/../EMC/EMC-Lib/source/population.cpp" />
-        </excluded>
       </library>
     </orderEntry>
   </component>
